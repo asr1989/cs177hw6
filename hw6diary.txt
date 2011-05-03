@@ -1,0 +1,184 @@
+hw6
+  parrot_trouble(1, 1) = 1
+  parrot_trouble(0, 20) = 0
+  parrot_trouble(1, 13) = 0
+  parrot_trouble(0, 0) = 0
+  parrot_trouble(1, 21) = 1
+  parrot_trouble(1, 12) = 0
+  parrot_trouble(0, 7) = 0
+  parrot_trouble(1, 1) = 1
+  parrot_trouble(0, 22) = 0
+  parrot_trouble(1, 11) = 0
+  parrot_trouble(1, 7) = 0
+
+ans =
+
+     0
+
+      hasTeen(12,20,13)=1
+      hasTeen(12,19,20)=1
+      hasTeen(19,20,12)=1
+      hasTeen(19,20,13)=1
+      hasTeen(19,18,13)=1
+      hasTeen(12,20,100)=0
+      hasTeen(90,12,20)=0
+      hasTeen(14,15,16)=1
+      hasTeen(12,12,12)=0
+      hasTeen(13,13,13)=1
+      hasTeen(-2,0,4)=0
+      hasTeen(12,16,1)=1
+      hasTeen(13,12,20)=1
+      hasTeen(12,20,12)=0
+
+ans =
+
+     0
+
+      cigarParty(50,0)=1
+      cigarParty(30,0)=0
+      cigarParty(70,1)=1
+      cigarParty(30,1)=0
+      cigarParty(40,0)=1
+      cigarParty(80,1)=1
+      cigarParty(59,0)=1
+      cigarParty(0,1)=0
+      cigarParty(39,1)=0
+      cigarParty(-50,0)=0
+      cigarParty(6.050000e+01,1)=1
+      cigarParty(5.000000e-01,0)=0
+      cigarParty(90,1)=1
+      cigarParty(90,0)=0
+      cigarParty(200000,0)=0
+      cigarParty(200000,1)=1
+
+Errors: 0
+
+        factorial(5)->120
+        factorial(1)->1
+        factorial(0)->1
+        factorial(4)->24
+        factorial(8)->40320
+        factorial(6)->720
+        factorial(2)->2
+        factorial(9)->362880
+        factorial(3)->6
+        factorial(7)->5040
+        factorial(11)->39916800
+        factorial(20)->2.432902e+18
+        factorial(-5)->-120
+        factorial(-1)->-1
+        factorial(0)->1
+        factorial(-4)->-24
+        factorial(10)->3628800
+        factorial(15)->1.307674e+12
+
+ans =
+
+     0
+
+sortaSum(3, 4) = 7
+
+sortaSum(9, 4) = 20
+
+sortaSum(10, 11) = 21
+
+sortaSum(12, -3) = 9
+
+sortaSum(-3, 12) = 9
+
+sortaSum(4, 5) = 9
+
+sortaSum(4, 6) = 20
+
+sortaSum(14, 7) = 21
+
+sortaSum(14, 6) = 20
+
+sortaSum(14, 5) = 20
+
+sortaSum(-10, 10) = 0
+
+sortaSum(1.550000e+01, 2.800000e+00) = 20
+
+sortaSum(21, -2) = 20
+
+sortaSum(-20, 5) = -15
+
+	Failures: 0
+
+ans =
+
+     0
+
+lastDigit(10,10)=1
+lastDigit(19,18)=0
+lastDigit(1002,102)=1
+lastDigit(1000,1001)=0
+lastDigit(111,22)=0
+lastDigit(23,3)=1
+lastDigit(11,0)=0
+lastDigit(76,76)=1
+lastDigit(1000,0)=1
+lastDigit(5,34)=0
+lastDigit(115,235)=1
+lastDigit(1192,1191)=0
+
+ans =
+
+     0
+
+      sumDouble(1,3)=4
+      sumDouble(2,2)=8
+      sumDouble(4,5)=9
+      sumDouble(4,4)=16
+      sumDouble(3,2)=5
+      sumDouble(4,2)=6
+      sumDouble(10,11)=21
+      sumDouble(9,9)=36
+      sumDouble(1,5)=6
+      sumDouble(3,0)=3
+      sumDouble(-3,-3)=-12
+      sumDouble(900,-53)=847
+      sumDouble(0,0)=0
+
+ans =
+
+     0
+
+      bunnyEars(1)=2
+      bunnyEars(2)=4
+      bunnyEars(2)=4
+      bunnyEars(5)=10
+      bunnyEars(4)=8
+      bunnyEars(6)=12
+      bunnyEars(5)=10
+      bunnyEars(20)=40
+      bunnyEars(10)=20
+      bunnyEars(9)=18
+      bunnyEars(11)=22
+      bunnyEars(21)=42
+ERROR: Must have a whole number of bunnies
+      bunnyEars(0)=0
+      bunnyEars(200)=400
+      bunnyEars(90)=180
+
+ans =
+
+     1
+
+alarm_clock(1, ) = 7:00
+alarm_clock(5, ) = 7:00
+alarm_clock(0, ) = 10:00
+alarm_clock(6, ) = 10:00
+alarm_clock(0, ) = off
+alarm_clock(6, ) = off
+Error: Day of Week input must be between 0 and 6
+
+Error: string must be of form 'True' or 'False'
+alarm_clock(5, ) = 10:00
+alarm_clock(3, ) = 10:00
+alarm_clock(4, ) = 7:00
+Number of failed results are: 2
+disp('No unexpected errors! All errors were supposed to occur!')
+No unexpected errors! All errors were supposed to occur!
+diary off

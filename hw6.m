@@ -1,0 +1,10 @@
+test_parrot_trouble
+test_hasTeen
+test_cigarParty
+test_factorial
+test_sortaSum
+test_firstLast6
+test_lastDigit
+test_sumDouble
+test_bunnyEars
+test_alarm_clock
